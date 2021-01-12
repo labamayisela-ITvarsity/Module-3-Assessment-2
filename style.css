@@ -1,0 +1,270 @@
+html{
+    font-family:cursive;
+}
+/*========== INDEX-ART ==========*/
+#index-art{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.page-index{
+   padding-top: 100px; 
+}
+.page-index img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+/*=======*/
+.header{
+    background-color: #010a10;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+.header img{
+    width: 150px;
+    padding-top: 12px;
+    padding-right: 15px;
+}
+/*========== HOME ==========*/
+.body-home{
+    background-image: url('images/background-port.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-starters{
+    background-image: url('images/meals-cover-port.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home-logo-img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 18px;
+}
+.home-menu a{
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    width: 80%;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*========== STARTERS ==========*/
+.starters{
+    padding-top: 50px;
+}
+.starters-list a{
+    text-decoration: none;
+}
+
+.starters-list-item{
+    border: 5px solid #010a10;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.starters-list-item h2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #010a10;
+}
+
+.starters-list-item i{
+    float: right;
+    color: #010a10;
+    padding-right: 20px;
+    padding-top: 12px;
+    font-size: 30px;
+}
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #010a10;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+/*====================STARTER-DETAILS========================*/
+#starter-meal{
+    padding-top: 50px;
+}
+#starter-meal img{
+    width: 100%;
+}
+#starter-meal h1{
+    font-size: 25;
+    text-align: center;
+    border: 5px solid #010a10;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+#starter-meal p{
+    margin: 10px;
+}
+#starter-meal h3{
+    margin: 10px;
+}
+/*========== DRINKS ==========*/
+.drink{
+    display: block;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.drink img{
+    width: 70%;
+}
+.drink p{
+    font-style: italic;
+}
+.review textarea{
+    display: block;
+    width: 90%;
+    
+    margin: auto;
+    margin-left: 25px;
+}
+/*=============ORDER-NOW==============*/
+.order a{
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+    border: 3px solid #010a10;
+    border-radius: 15px;
+    width: 50%;
+    color: #010a10;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ordered{
+    padding-top: 50px;
+}
+.ordered h2{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #010a10;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.ordered i{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 70px;
+    color: #010a10;
+}
+.ordered a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #010a10;
+}
+/*==============EXTRA================*/
+.extra{
+    display: block;
+    width: 100%;
+}
+.extra input[type="number"]{
+    float: right;
+}
+label[for="no-of"]{
+    float: right;
+}
+/*===========RESPONSIVE-LAYOUT===================*/
+@media only screen and (min-width: 600px){
+    .starters{
+        width: 70%;
+        margin: auto;
+    }
+    #starter-meal{
+        width: 70%;
+        margin: auto;
+    }
+    .home-menu{
+        width: 70%;
+        margin: auto;
+    }
+    .drinks{
+        width: 70%;
+        margin: auto;
+    }
+} 
+@media only screen and (min-width: 1000px){
+    .starters{
+        width: 50%;
+        margin: auto;
+    }
+    .drinks{
+        width: 50%;
+        margin: auto;
+    }
+    #starter-meal{
+        width: 50%;
+        margin: auto;
+    }
+    .home-menu{
+        width: 50%;
+        margin: auto;
+    }
+} 
+
+@media only screen and (min-width: 1200px){
+    .starters{
+        width: 40%;
+        margin: auto;
+    }
+    .drinks{
+        width: 40%;
+        margin: auto;
+    }
+    #starter-meal{
+        width: 40%;
+        margin: auto;
+    }
+    .home-menu{
+        width: 40%;
+        margin: auto;
+    }
+} 
+@media only screen and (min-width: 630px){
+    .body-home{
+    background-image: url('images/background-land.jpg');
+}
+.body-starters{
+    background-image: url('images/meals-cover-port-01.jpeg');
+}
+} 
